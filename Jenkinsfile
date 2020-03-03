@@ -17,7 +17,7 @@ pipeline {
 
         stage('Test 2') {
           steps {
-            sh 'echo \' Perform Testing 2 ...\' '
+            sh 'echo \' Perform Testing 2 ...\'; exit 1'
           }
         }
 
