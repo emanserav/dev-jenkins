@@ -17,13 +17,13 @@ pipeline {
 
         stage('Test 2') {
           steps {
-            sh 'echo \' Perform Testing #2 ...\'
+            sh 'echo \' Perform Testing #2 ...\''
           }
         }
 
         stage('Test 3') {
           steps {
-            sh 'echo \'Perform Testing 3 ...\''
+            sh 'echo \'Perform Testing #3 ...\''
           }
         }
 
